@@ -19,6 +19,6 @@ LOCAL_PATH := device/neffos/TP702A
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-$(call inherit-product, device/neffos/TP702A/full_orka.mk)
+$(call inherit-product, device/neffos/TP702A/full_TP702A.mk)
 
 PRODUCT_NAME := omni_TP702A
